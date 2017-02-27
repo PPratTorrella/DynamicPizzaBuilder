@@ -1,1 +1,3 @@
 # DynamicPizzaBuilder
+
+Uses Decorator pattern

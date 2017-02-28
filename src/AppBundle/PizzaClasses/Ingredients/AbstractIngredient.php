@@ -1,13 +1,15 @@
 <?php
 
-namespace AppBundle\Entity;
+namespace AppBundle\PizzaClasses\Ingredients;
 
-abstract class Ingredient implements Pizza
+use AppBundle\PizzaClasses\PizzaInterface;
+
+abstract class AbstractIngredient implements PizzaInterface
 {
 	private $pizza;
 	private $cost;
 	
-	public function __construct(Pizza $pizza)
+	public function __construct(PizzaInterface $pizza)
 	{
 		$this->pizza = $pizza;
 	}
@@ -15,7 +17,7 @@ abstract class Ingredient implements Pizza
 	public function ingredients()
 	{
 		$reflection = new \ReflectionClass($this);
-		return array_merge($this->pizza->ingredients(), [$reflection->getShortName()]) ;
+		return array_merge($this->pizza->ingredients(), [$reflection->getShortName()]);
 	}
 
 	public function cost()

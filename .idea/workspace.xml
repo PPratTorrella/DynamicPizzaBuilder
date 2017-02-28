@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig" line="16" mnemonic="5" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1dccb2d-8c54-4a3d-9786-d4f5896a4c77" name="Default" comment="" />
+    <list default="true" id="b1dccb2d-8c54-4a3d-9786-d4f5896a4c77" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/BasePizza.php" afterPath="$PROJECT_DIR$/src/AppBundle/PizzaClasses/BasePizza.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Ingredient.php" afterPath="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/AbstractIngredient.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Cheese.php" afterPath="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Cheese.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/MushRoom.php" afterPath="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/MushRoom.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Onion.php" afterPath="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Onion.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Oregano.php" afterPath="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Oregano.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Sausage.php" afterPath="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Sausage.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Tomato.php" afterPath="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Tomato.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Order.php" afterPath="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Order.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Pizza.php" afterPath="$PROJECT_DIR$/src/AppBundle/PizzaClasses/PizzaInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/PizzaBuilder.php" afterPath="$PROJECT_DIR$/src/AppBundle/PizzaClasses/PizzaBuilder.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/PriceModifier.php" afterPath="$PROJECT_DIR$/src/AppBundle/PizzaClasses/PriceModifiers/PriceModifierInterface.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AppBundle/Entity/PriceModifiers/Preperation.php" afterPath="$PROJECT_DIR$/src/AppBundle/PizzaClasses/PriceModifiers/Preperation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pizzaSHop.iml" afterPath="$PROJECT_DIR$/.idea/pizzaSHop.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/symfony_requirements" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/config.php" afterPath="$PROJECT_DIR$/web/config.php" />
+    </list>
     <ignored path="pizzaSHop.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,37 +43,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="390">
+              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+              <folding>
+                <element signature="e#40#73#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/web/css/custom.css" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Abstract/Ingredient.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Abstract/Pizza.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Interface/Pizza.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Enitity/Interface/Pizza.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Enitity/test/Pizza.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Enitity/Abstract/Ingredient.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Enitity/abs/Ingredient.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Enitity/Ingredient.php" />
-        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Enitity/Ingredients/Tomato.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Enitity/Ingredients/Cheese.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Enitity/Ingredients/Peperoni.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Enitity/Ingredients/MushRoom.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Enitity/Ingredients/Onion.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Enitity/Ingredients/Oregano.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Enitity/Ingredients/Sausage.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Enitity/Pizza.php" />
@@ -70,25 +77,43 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Enitity/PizzaBuilder.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Classes/Test.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Test.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Chef.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Pizza.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/CanBePutInOven.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/pizza/pizza.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Order.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/PriceModifier.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Classes/PizzaBuilder.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/PizzaInterface.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/PizzaInterfaceInterface.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/BasePizza.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/PizzaBuilder.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Ingredient.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/AbstractIngredient.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/AbstractIngredient.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Cheese.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/MushRoom.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Onion.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Oregano.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Sausage.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Tomato.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/MushRoom.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Chef.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Pizza.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/CanBePutInOven.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/BasePizza.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/pizza/pizza.html.twig" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Ingredient.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Order.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Cheese.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/PriceModifiers/PriceModifier.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/PriceModifiers/Preperation.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/PriceModifier.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Classes/PizzaBuilder.php" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/PizzaBuilder.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Cheese.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/AbstractIngredient.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/MushRoom.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Onion.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Oregano.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Sausage.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Tomato.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/PizzaClasses/PriceModifiers/Preperation.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/PizzaClasses/PriceModifiers/PriceModifierInterface.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/PizzaClasses/BasePizza.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/PizzaClasses/Order.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/PizzaClasses/PizzaBuilder.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/PizzaClasses/PizzaInterface.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
       </list>
     </option>
   </component>
@@ -103,10 +128,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -133,42 +156,140 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pizzaSHop" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pizzaSHop" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pizzaSHop" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pizzaSHop" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pizzaSHop" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzaClasses" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppBundle" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -178,15 +299,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pau\Code\GitHub\testPullPizza\test\src\AppBundle\Entity\PriceModifiers" />
+      <recent name="C:\Users\Pau\Code\GitHub\testPullPizza\test\src\AppBundle\Entity\Ingredients" />
+      <recent name="C:\Users\Pau\Code\pizzaTest\pizzaSHop\src\AppBundle" />
+      <recent name="C:\Users\Pau\Code\pizzaTest\pizzaSHop\src\AppBundle\Enitity" />
+      <recent name="C:\Users\Pau\Code\pizzaTest\pizzaSHop\src\AppBundle\Interface" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Pau\Code\pizzaTest\pizzaSHop\src\AppBundle\Enitity\Ingredients" />
       <recent name="C:\Users\Pau\Code\pizzaTest\pizzaSHop\src\AppBundle\Enitity" />
       <recent name="C:\Users\Pau\Code\pizzaTest\pizzaSHop\app\Resources\views\pizza" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Pau\Code\pizzaTest\pizzaSHop\src\AppBundle" />
-      <recent name="C:\Users\Pau\Code\pizzaTest\pizzaSHop\src\AppBundle\Enitity" />
-      <recent name="C:\Users\Pau\Code\pizzaTest\pizzaSHop\src\AppBundle\Interface" />
     </key>
   </component>
   <component name="RunManager">
@@ -241,15 +364,16 @@
       <workItem from="1488027403802" duration="20906000" />
       <workItem from="1488186685876" duration="67000" />
       <workItem from="1488212398407" duration="4897000" />
+      <workItem from="1488278720582" duration="1550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32341000" />
+    <option name="totallyTimeSpent" value="33891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -289,8 +413,44 @@
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <marker date="1488279215943" expanded="false" signature="12:26" ph="base" />
+            <marker date="1488279215943" expanded="true" signature="32:1250" ph="{% block body ...%}" />
+            <marker date="1488279215943" expanded="true" signature="70:1234" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="99:1223" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="130:215" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="230:374" ph="{% for housePizza in housePizzas ...%}" />
+            <marker date="1488279215943" expanded="true" signature="421:737" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="465:718" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="928:1206" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="967:1111" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="995:1088" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="1252:1368" ph="{% block stylesheets ...%}" />
+            <marker date="1488279215943" expanded="true" signature="1282:1352" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1488279215943" expanded="false" signature="12:26" ph="base" />
+            <marker date="1488279215943" expanded="true" signature="32:1250" ph="{% block body ...%}" />
+            <marker date="1488279215943" expanded="true" signature="70:1234" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="99:1223" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="130:215" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="230:374" ph="{% for housePizza in housePizzas ...%}" />
+            <marker date="1488279215943" expanded="true" signature="421:737" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="465:718" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="928:1206" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="967:1111" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="995:1088" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="1252:1368" ph="{% block stylesheets ...%}" />
+            <marker date="1488279215943" expanded="true" signature="1282:1352" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -298,18 +458,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1488279215943" expanded="false" signature="12:26" ph="base" />
+            <marker date="1488279215943" expanded="true" signature="32:1250" ph="{% block body ...%}" />
+            <marker date="1488279215943" expanded="true" signature="70:1234" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="99:1223" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="130:215" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="230:374" ph="{% for housePizza in housePizzas ...%}" />
+            <marker date="1488279215943" expanded="true" signature="421:737" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="465:718" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="928:1206" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="967:1111" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="995:1088" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="1252:1368" ph="{% block stylesheets ...%}" />
+            <marker date="1488279215943" expanded="true" signature="1282:1352" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Ingredient.php">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/AbstractIngredient.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Ingredient.php">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/AbstractIngredient.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
@@ -335,7 +509,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Pizza.php">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/PizzaInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
@@ -424,98 +598,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Test.php" />
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/CanBePutInOven.php" />
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Chef.php" />
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/pizza/pizza.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="541">
           <caret line="340" column="9" selection-start-line="340" selection-start-column="9" selection-end-line="340" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/PriceModifiers/Preperation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding>
-            <marker date="1488213854717" expanded="false" signature="55:114" ph="..." />
-            <marker date="1488213854717" expanded="true" signature="158:275" ph="{...}" />
-            <marker date="1488213854717" expanded="true" signature="225:273" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Tomato.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <marker date="1488043165839" expanded="false" signature="52:108" ph="..." />
-            <marker date="1488043165839" expanded="true" signature="141:299" ph="{...}" />
-            <marker date="1488043165839" expanded="true" signature="228:295" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Sausage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <marker date="1488043165844" expanded="false" signature="52:108" ph="..." />
-            <marker date="1488043165844" expanded="true" signature="142:301" ph="{...}" />
-            <marker date="1488043165844" expanded="true" signature="230:297" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Oregano.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <marker date="1488043165827" expanded="false" signature="52:108" ph="..." />
-            <marker date="1488043165827" expanded="true" signature="142:303" ph="{...}" />
-            <marker date="1488043165827" expanded="true" signature="232:299" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Onion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <marker date="1488043165814" expanded="false" signature="52:108" ph="..." />
-            <marker date="1488043165814" expanded="true" signature="140:300" ph="{...}" />
-            <marker date="1488043165814" expanded="true" signature="229:296" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/MushRoom.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <marker date="1488043739433" expanded="false" signature="52:108" ph="..." />
-            <marker date="1488043739433" expanded="true" signature="160:322" ph="{...}" />
-            <marker date="1488043739433" expanded="true" signature="251:318" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,118 +835,219 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Ingredients/Cheese.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/pizza/pizza.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="208">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
-            <marker date="1488047099370" expanded="false" signature="52:108" ph="..." />
-            <marker date="1488047099370" expanded="true" signature="141:301" ph="{...}" />
-            <marker date="1488047099370" expanded="true" signature="230:297" ph="{...}" />
+            <marker date="1488219498417" expanded="true" signature="43:202" ph="..." />
+            <marker date="1488219498417" expanded="true" signature="75:147" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/PriceModifier.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding>
-            <marker date="1488213863653" expanded="true" signature="60:159" ph="{...}" />
-            <marker date="1488213863653" expanded="true" signature="67:121" ph=" @param $price ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Ingredient.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <marker date="1488046834514" expanded="true" signature="78:498" ph="{...}" />
-            <marker date="1488046834514" expanded="true" signature="158:189" ph="{...}" />
-            <marker date="1488046834514" expanded="true" signature="221:355" ph="{...}" />
-            <marker date="1488046834514" expanded="true" signature="380:431" ph="{...}" />
-            <marker date="1488046834514" expanded="true" signature="467:496" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/BasePizza.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding>
-            <marker date="1488044885566" expanded="true" signature="68:249" ph="{...}" />
-            <marker date="1488044885566" expanded="true" signature="158:188" ph="{...}" />
-            <marker date="1488044885566" expanded="true" signature="213:245" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Order.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="845">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-          <folding>
-            <marker date="1488046913929" expanded="true" signature="125:689" ph="{...}" />
-            <marker date="1488046913929" expanded="true" signature="219:310" ph="{...}" />
-            <marker date="1488046913929" expanded="true" signature="339:582" ph="{...}" />
-            <marker date="1488046913929" expanded="true" signature="434:556" ph="..." />
-            <marker date="1488046913929" expanded="true" signature="440:484" ph="..." />
-            <marker date="1488046913929" expanded="true" signature="627:686" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Pizza.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <marker date="1488044462465" expanded="true" signature="51:112" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-          <folding>
-            <marker date="1488216826780" expanded="false" signature="44:293" ph="..." />
-            <marker date="1488216826780" expanded="true" signature="337:951" ph="{...}" />
-            <marker date="1488216826780" expanded="true" signature="347:389" ph=" @Route(&quot;/&quot;, name=&quot;homepage&quot;) ..." />
-            <marker date="1488216826780" expanded="true" signature="441:949" ph="{...}" />
-            <marker date="1488216826780" expanded="true" signature="516:747" ph="..." />
-            <marker date="1488216826780" expanded="true" signature="862:941" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/PizzaBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding>
-            <marker date="1488216628214" expanded="true" signature="40:242" ph="..." />
-            <marker date="1488216628214" expanded="true" signature="263:1567" ph="{...}" />
-            <marker date="1488216628214" expanded="true" signature="537:699" ph="..." />
-            <marker date="1488216628214" expanded="true" signature="707:792" ph=" @param array $ingredientNames ..." />
-            <marker date="1488216628214" expanded="true" signature="846:968" ph="{...}" />
-            <marker date="1488216628214" expanded="true" signature="1019:1167" ph="{...}" />
-            <marker date="1488216628214" expanded="true" signature="1218:1327" ph="{...}" />
-            <marker date="1488216628214" expanded="true" signature="1392:1564" ph="{...}" />
-            <marker date="1488216628214" expanded="true" signature="1445:1542" ph="..." />
+            <marker date="1488219498407" expanded="true" signature="21:744" ph="..." />
+            <marker date="1488219498407" expanded="true" signature="32:448" ph="..." />
+            <marker date="1488219498407" expanded="true" signature="82:121" ph="{% block title ...%}" />
+            <marker date="1488219498407" expanded="true" signature="138:175" ph="{% block stylesheets ...%}" />
+            <marker date="1488219498407" expanded="true" signature="459:734" ph="..." />
+            <marker date="1488219498407" expanded="true" signature="469:499" ph="{% block body ...%}" />
+            <marker date="1488219498407" expanded="true" signature="508:545" ph="{% block javascripts ...%}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="260">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <marker date="1488279215943" expanded="false" signature="12:26" ph="base" />
+            <marker date="1488279215943" expanded="true" signature="32:1250" ph="{% block body ...%}" />
+            <marker date="1488279215943" expanded="true" signature="70:1234" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="99:1223" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="130:215" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="230:374" ph="{% for housePizza in housePizzas ...%}" />
+            <marker date="1488279215943" expanded="true" signature="421:737" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="465:718" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="928:1206" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="967:1111" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="995:1088" ph="..." />
+            <marker date="1488279215943" expanded="true" signature="1252:1368" ph="{% block stylesheets ...%}" />
+            <marker date="1488279215943" expanded="true" signature="1282:1352" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Cheese.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1488280237912" expanded="true" signature="137:306" ph="{...}" />
+            <marker date="1488280237912" expanded="true" signature="235:302" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/AbstractIngredient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1488280237878" expanded="true" signature="157:585" ph="{...}" />
+            <marker date="1488280237878" expanded="true" signature="246:277" ph="{...}" />
+            <marker date="1488280237878" expanded="true" signature="309:442" ph="{...}" />
+            <marker date="1488280237878" expanded="true" signature="467:518" ph="{...}" />
+            <marker date="1488280237878" expanded="true" signature="554:583" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/MushRoom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding>
+            <marker date="1488280237769" expanded="true" signature="165:336" ph="{...}" />
+            <marker date="1488280237769" expanded="true" signature="265:332" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Onion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <marker date="1488280237792" expanded="true" signature="136:305" ph="{...}" />
+            <marker date="1488280237792" expanded="true" signature="234:301" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Oregano.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <marker date="1488280237805" expanded="true" signature="138:308" ph="{...}" />
+            <marker date="1488280237805" expanded="true" signature="237:304" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Sausage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1488280237818" expanded="true" signature="138:306" ph="{...}" />
+            <marker date="1488280237818" expanded="true" signature="235:302" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/Ingredients/Tomato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1488280237866" expanded="true" signature="137:304" ph="{...}" />
+            <marker date="1488280237866" expanded="true" signature="233:300" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/PriceModifiers/Preperation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <marker date="1488280237831" expanded="true" signature="108:225" ph="{...}" />
+            <marker date="1488280237831" expanded="true" signature="175:223" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/PriceModifiers/PriceModifierInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <marker date="1488280237948" expanded="true" signature="90:189" ph="{...}" />
+            <marker date="1488280237948" expanded="true" signature="97:151" ph=" @param $price ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/BasePizza.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <marker date="1488280237925" expanded="true" signature="83:264" ph="{...}" />
+            <marker date="1488280237925" expanded="true" signature="173:203" ph="{...}" />
+            <marker date="1488280237925" expanded="true" signature="228:260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1488280237845" expanded="true" signature="137:710" ph="{...}" />
+            <marker date="1488280237845" expanded="true" signature="240:331" ph="{...}" />
+            <marker date="1488280237845" expanded="true" signature="360:603" ph="{...}" />
+            <marker date="1488280237845" expanded="true" signature="455:577" ph="..." />
+            <marker date="1488280237845" expanded="true" signature="461:505" ph="..." />
+            <marker date="1488280237845" expanded="true" signature="648:707" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/PizzaBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <marker date="1488280237895" expanded="true" signature="46:278" ph="..." />
+            <marker date="1488280237895" expanded="true" signature="299:1627" ph="{...}" />
+            <marker date="1488280237895" expanded="true" signature="579:741" ph="..." />
+            <marker date="1488280237895" expanded="true" signature="749:843" ph=" @param array $ingredientNames ..." />
+            <marker date="1488280237895" expanded="true" signature="897:1019" ph="{...}" />
+            <marker date="1488280237895" expanded="true" signature="1070:1218" ph="{...}" />
+            <marker date="1488280237895" expanded="true" signature="1269:1378" ph="{...}" />
+            <marker date="1488280237895" expanded="true" signature="1452:1624" ph="{...}" />
+            <marker date="1488280237895" expanded="true" signature="1505:1602" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/PizzaClasses/PizzaInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding>
+            <marker date="1488280237936" expanded="true" signature="66:127" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+          <folding>
+            <element signature="e#40#73#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

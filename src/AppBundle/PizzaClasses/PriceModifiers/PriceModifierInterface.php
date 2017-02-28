@@ -1,9 +1,9 @@
 <?php
 
-namespace AppBundle\Entity;
+namespace AppBundle\PizzaClasses\PriceModifiers;
 
 
-interface PriceModifier
+interface PriceModifierInterface
 {
 	/**
 	 * @param $price

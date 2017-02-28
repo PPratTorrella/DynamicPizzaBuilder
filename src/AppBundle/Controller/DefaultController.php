@@ -2,9 +2,8 @@
 
 namespace AppBundle\Controller;
 
-use AppBundle\Entity\Chef;
-use AppBundle\Entity\Order;
-use AppBundle\Entity\PizzaBuilder;
+use AppBundle\PizzaClasses\Order;
+use AppBundle\PizzaClasses\PizzaBuilder;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;

@@ -1,8 +1,8 @@
 <?php
 
-namespace AppBundle\Entity;
+namespace AppBundle\PizzaClasses;
 
-class BasePizza implements Pizza
+class BasePizza implements PizzaInterface
 {
 	
 	const DOUGH = 'Italian dough';

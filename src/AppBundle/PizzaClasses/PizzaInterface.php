@@ -1,8 +1,8 @@
 <?php
 
-namespace AppBundle\Entity;
+namespace AppBundle\PizzaClasses;
 
-interface Pizza
+interface PizzaInterface
 {
 	public function ingredients();
 	public function cost();

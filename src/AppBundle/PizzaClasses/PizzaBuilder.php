@@ -1,19 +1,19 @@
 <?php
 
-namespace AppBundle\Entity;
+namespace AppBundle\PizzaClasses;
 
-use AppBundle\Entity\Ingredients\Cheese;
-use AppBundle\Entity\Ingredients\MushRoom;
-use AppBundle\Entity\Ingredients\Tomato;
-use AppBundle\Entity\Ingredients\Onion;
-use AppBundle\Entity\Ingredients\Sausage;
+use AppBundle\PizzaClasses\Ingredients\Cheese;
+use AppBundle\PizzaClasses\Ingredients\MushRoom;
+use AppBundle\PizzaClasses\Ingredients\Tomato;
+use AppBundle\PizzaClasses\Ingredients\Onion;
+use AppBundle\PizzaClasses\Ingredients\Sausage;
 
 
 class PizzaBuilder
 {
 	const FUN_PIZZA_NAME = 'FunPizza';
 	const SUPER_MUSHROOM_NAME = 'SuperMushroomPizza';
-	const INGREDIENTS_PATH = "AppBundle\\Entity\\Ingredients\\";
+	const INGREDIENTS_PATH = "AppBundle\\PizzaClasses\\Ingredients\\";
 
 //	Put this in a config file and inject config into this service, but I have little time.
 	private $housePizzasConfig = [
@@ -23,7 +23,7 @@ class PizzaBuilder
 
 	/**
 	 * @param array $ingredientNames
-	 * @return Pizza|false, or use NullPizzaObject
+	 * @return PizzaInterface|false, or use NullPizzaObject
 	 */
 	public function build(array $ingredientNames = [])
 	{
@@ -45,7 +45,7 @@ class PizzaBuilder
 		// make sure $pizzaIngredientnames is sub-set of all available ingredient class names
 	}
 
-	private function decoratePizza(Pizza $pizza, $ingredientNames)
+	private function decoratePizza(PizzaInterface $pizza, $ingredientNames)
 	{
 		foreach ($ingredientNames as $ingredientName) {
 			$className = self::INGREDIENTS_PATH . $ingredientName;

@@ -1,15 +1,15 @@
 <?php
 
-namespace AppBundle\Entity;
+namespace AppBundle\PizzaClasses;
 
-use AppBundle\Entity\PriceModifiers\Preperation as PreperationPriceModifier;
+use AppBundle\PizzaClasses\PriceModifiers\Preperation as PreperationPriceModifier;
 
 class Order
 {
 	private $pizza;
 	private $priceModifiers = [];
 
-	public function __construct(Pizza $pizza)
+	public function __construct(PizzaInterface $pizza)
 	{
 		$this->pizza = $pizza;
 		$this->priceModifiers[] = new PreperationPriceModifier();
